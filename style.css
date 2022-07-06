@@ -20,6 +20,9 @@ h1{
     /* margin-top: 20px; */
     padding: 30px;
     background-size: cover;
+    margin: 0px;
+    background-position: 100%;
+    
 
 }
 .describtion{
@@ -28,11 +31,19 @@ h1{
 }
 .donate-link{
     text-decoration:none;
-    background-color:#c23616;
+    background-color:#20bf6b;
     border-radius: 10px;
     padding: 10px 50px;
     font-weight: 600;
     color: #f5f6fa;
+    border: none;
+    
+    }
+    #contact-link{
+        background-color: #20bf6b;
+        padding: 10px 50px;
+        text-decoration:none;
+
     
 
 }
@@ -44,7 +55,7 @@ h1{
 
 }
 .second-section{
-    text-align: center;
+    text-align: center;;
 }
 .container{
     display: flex;
@@ -79,6 +90,7 @@ h1{
     border: none;
     text-align: center;
     font-size: 25px;
+    border-bottom: 1px solid gray;
 }
 #first-form{
     border: none;
@@ -87,6 +99,7 @@ h1{
     background-color:#f7f1e3 ;
     display: flex;
     justify-content: center;
+    padding: 50px 0px;
 }
 .flex-child{
     background-color: #7ed6df;
@@ -125,7 +138,6 @@ h1{
     border: none;
 
 
-
 }
 #button{
     background-color: tomato;
@@ -147,10 +159,37 @@ footer{
 #footer-h{
     color:#FC427B;
     text-align: center;
+    font-family: tahoma;
 }
 .pest{
     background-color: #1B9CFC;
 }
 .powerblue{
     background-color:#26de81;
+}
+.need{
+    background-image: url(images/blood.jpg);
+    background-position: 100%;
+}
+.last-container{
+    display: flex;
+    padding-top: 50px;
+
+
+    
+}
+#write{
+    width: 50%;
+    text-align:center;
+    background-color: #f7f1e3;
+    padding-right: 5%;
+    border-radius: 20px;
+}
+#image{
+    width: 50%;
+    padding-left: 5%;
+    border-radius: 20px;
+}
+#container-head{
+    color: #a55eea;
 }
