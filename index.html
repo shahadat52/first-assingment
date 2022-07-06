@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First-assingment</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -17,8 +19,9 @@
                 <h1>Let's<span class="help"> Help</span> Those Who Are More In Need</h1><br>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum necessitatibus molestias quis ab aliquam voluptates a veniam quod voluptas suscipit?</p>
             </div>
-            <a class="help-link" href="
-            http://www.assunnahfoundation.org/">Donate Now</a>
+            <button class="donate-link" type="button" onclick="alert('You pressed the button!')">Donate Now</button>
+            <!-- <a class="help-link" href="
+            http://www.assunnahfoundation.org/" target="_blank" >Donate Now</a> -->
         </div>
     </section>
     <section class="second-section">
@@ -35,30 +38,67 @@
         </div>
         <br><br>
         <div>
-            <form>
-                <input type="text" placeholder="Other amount(Taka)">
+            <form action="">
+                <input id="donation" type="text" placeholder="Other Amount (Taka)">
             </form>
+        </div>
+           
             <br>
-                <a class="help-link" href=" http://www.assunnahfoundation.org/">Donate Now</a>
+            <button class="donate-link" type="button" onclick="alert('You pressed the button!')">Donate Now</button>
+               
             </div>
         </div>
     </section>
+    <br>
     <section>
-        <div>
+        <div class="second-section">
             <h1>Our Donate Plan</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut labore officiis atque accusamus id ad odio dignissimos praesentium dolorem at</p>
         </div>
-        <div>
-            <div class="flex-child">
-                <h1>Food for Family</h1>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit molit.</p>
-                <a href="icons/food.png"></a>
+        
+            <div class="second-container">
+                <div class="flex-child">
+                    <i class="fa-solid fa-bowl-food" style="font-size:80px;"></i>
+                    <h1 class="plan-chart-header">Food for Family</h1>
+                    <p class="describtion">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit molit.</p>
+                    <a href="icons/food.png"></a>
+                </div>
+                <div class="flex-child pest">
+                    <i class="fa-solid fa-people-roof" style="font-size:80px;"></i>
+                    <h1 class="plan-chart-header">Shelter for a family</h1>
+                    <p class="describtion">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit molit.</p>
     
-    
+                </div>
+                <div class="flex-child powerblue">
+                    <i class="fa-solid fa-book-open" style="font-size:80px;"></i>
+                    <h1 class="plan-chart-header">Education for a child</h1>
+                    <p class="describtion">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit molit.</p>
+                </div>
             </div>
+            
+        
+    </section>
+    <section>
+        <div class="second-section">
+            <h1>Get My Updates</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure velit fuga optio sit asperiores molestiae atque laboriosam alias esse voluptas!</p>
+        </div>
+        <div class="box">
+            <form action="">
+                <div class="box-form">
+                    <input id="email" type="email" placeholder="Email">
+                    <button id="button" type="button" onclick="alert('You pressed the button!')">Subscriber</button>
+                </div>
+                </div>
+            </form>
+                
             
         </div>
     </section>
 
 </body>
+<footer>
+    <h3 id="footer-h">Donations Increase Wealth</h3>
+<p id="footer-text">© Shahadat Hossain 2023, All right Reserved.</p>
+</footer>
 </html>

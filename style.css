@@ -4,27 +4,29 @@ body{
 }
 h1{
     font-size: 50px;
-    /* margin-top: 30px; */
+    margin-top: 50px;
+    margin-bottom: 30px;
+
     /* padding-top: 100px; */
-    margin-bottom: 0;
+    
 }
 .help-need{
     background-image: url(images/donation6.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: 100% 100%;
     color: white;
     text-align: center;
     /* margin-top: 20px; */
     padding: 30px;
     background-size: cover;
-    ma
+
 }
 .describtion{
-    font-size: 15px;
+    font-size:15px;
     color: #222f3e;
 }
-.help-link{
+.donate-link{
     text-decoration:none;
     background-color:#c23616;
     border-radius: 10px;
@@ -69,4 +71,87 @@ h1{
     border: 2px solid tomato;
     background-color: bisque;
     color: tomato;
+    
+}
+#donation{
+    background-color:#f7f1e3;
+    padding: 10px 180px;
+    border: none;
+    text-align: center;
+    font-size: 25px;
+}
+#first-form{
+    border: none;
+}
+.second-container{
+    background-color:#f7f1e3 ;
+    display: flex;
+    justify-content: center;
+}
+.flex-child{
+    background-color: #7ed6df;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 20px;
+}
+.plan-chart-header{
+    font-size: 20px;
+    padding-top:20px;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    background-color: #F8EFBA;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 40px;
+    margin-top: 70px;
+   
+    
+}
+.box-form{
+    
+    background-color: #CAD3C8;
+    
+}
+#email{
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    border: none;
+    border: none;
+
+
+
+}
+#button{
+    background-color: tomato;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    border: none;
+    padding-left:40px;
+    padding-right:40px;
+    /* border-radius: 10px; */
+    margin-left: 0;
+}
+footer{
+    background-color: black;
+}
+#footer-text{
+    color: #f5f6fa;
+    text-align: center;
+}
+#footer-h{
+    color:#FC427B;
+    text-align: center;
+}
+.pest{
+    background-color: #1B9CFC;
+}
+.powerblue{
+    background-color:#26de81;
 }
